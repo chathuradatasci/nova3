@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://api.fontshare.com/v2/css?f[]=work-sans@200,300,500,600,100,700,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="modern-normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="utils.css">
+    <title>Dev Server</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#home"> Home</a>
+          </li>
+          <li>
+            <a class="header__link" href="#team"> Team</a>
+          </li>
+          <li>
+            <a class="header__link" href="#projects"> Projects</a>
+          </li>
+        </ul>
+        <button class="header__bars">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>    
+        </button>
+      </nav>
+    </header>
+
+  <main>
+      <section class="hero container">
+          <div class="text">
+              <h1 class="novva">TEAM NOVVA</h1>
+          </div>
+          <div class="image">
+              <img class="avatar" src="images/avatar.png" alt="">
+          </div>
+          <div class="ellipse"></div>
+          <div class="colors">
+            <div class="rec1-lightblue"></div>
+            <div class="rec2-pink-left"></div>
+            <div class="rec2-pink-right"></div>
+            <div class="rec2-yellow-left"></div> 
+          </div>
+          <div class="circle">
+              <div class="lined"></div>
+              <div class="blurred"></div>
+          </div>
+
+      </section>
+      <section class="about container section">
+        <h1>About us</h1>
+      </section>
+      <section class="projects container section">
+        <h1>Projects</h1>
+      </section>
+      <section class="team-members container section">
+        <h1>Team Members</h1>
+      </section> 
+    </main>
+
+    <footer></footer>
+  
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

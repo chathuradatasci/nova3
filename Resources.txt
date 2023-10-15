@@ -1,0 +1,19 @@
+Setting up Enviroment-->
+https://vitejs.dev/guide/
+
+makes browsers render all elements more consistently-->
+https://necolas.github.io/normalize.css/
+
+colours --> 
+Get Colour Palletes
+https://tailwindcss.com/docs/customizing-colors
+
+Convert Colours-->
+https://www.w3schools.com/colors/colors_converter.asp
+
+icons-->
+https://heroicons.com/
+
+Fonts-->
+https://www.fontshare.com/
+
